@@ -1,12 +1,12 @@
 package venkataWeek5task;
 public class Item {
     
-   int itemid;
+    String itemid;
     String dish;
     double price;
     String category;
 
-    public Item(int itemid, String dish, double price, String category) {
+    public Item(String itemid, String dish, double price, String category) {
         this.itemid = itemid;
         this.dish = dish;
         this.price = price;
@@ -16,11 +16,11 @@ public class Item {
     public Item() {
     }
 
-    public int getItemid() {
+    public String getItemid() {
         return itemid;
     }
 
-    public void setItemid(int itemid) {
+    public void setItemid(String itemid) {
         this.itemid = itemid;
     }
 
